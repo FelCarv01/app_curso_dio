@@ -8,6 +8,7 @@ class HomePage extends StatefulWidget {
   @override
   HomePageState createState() => HomePageState();
 }
+
 class HomePageState extends State<HomePage> {
   final HomeStore store = Modular.get();
 
@@ -18,7 +19,7 @@ class HomePageState extends State<HomePage> {
         title: Text(widget.title),
       ),
       body: Column(
-        children: <Widget>[],
+        children: const [],
       ),
     );
   }
